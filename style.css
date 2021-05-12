@@ -1,0 +1,30 @@
+
+body{
+  text-transform: capitalize;
+  font-family: monospace;
+  text-align: center;
+  position: relative;
+background-color: rgb(159, 241, 241);
+}
+.dice {
+  text-align: center;
+  display: inline-block;
+}
+
+.logo{
+  font-size: 4rem;
+  color: rgb(0, 0, 0);
+  transition: 1s;
+}
+.logo:hover{
+  box-shadow: 12px 12px 12px 0px;
+  /* font-size: 3rem; */
+}
+
+@media screen and (max-width: 786px) {
+  img{
+    width: 5rem;
+    }
+}
+
+
